@@ -1,7 +1,7 @@
 FROM alpine
 
 RUN \
-  apk --update add iptables bash
+  apk --update add iptables ip6tables bash
 
 COPY start /start
 
